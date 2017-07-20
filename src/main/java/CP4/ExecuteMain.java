@@ -63,6 +63,22 @@ public class ExecuteMain {
         }
     }
 
+    //Fibonacci
+    public static void practise_115(){
+
+        int input=10;
+        int temp=0;
+        if(input<2){
+            System.out.print("1 ");
+        }
+        if(input<3){
+            System.out.print("1 ");
+        }
+       for(int i=2;i<input;i++){
+
+       }
+    }
+
 
 
     //高效素数探测 遍历只到开根号,
@@ -81,4 +97,6 @@ public class ExecuteMain {
             return true;
         }
     }
+
+
 }
