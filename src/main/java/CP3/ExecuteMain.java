@@ -11,7 +11,8 @@ public class ExecuteMain {
     public static void main(String[] args) {
 //        practise_79();
 //        practise_80();
-        practise_84();
+       // practise_84();
+        practise_87();
     }
 
     //76
@@ -58,6 +59,16 @@ public class ExecuteMain {
         Random random=new Random();
         System.out.println(random.nextBoolean());
     }
+
+    public  static void practise_87(){
+
+        long a=0x111;
+        long b=0177;
+        System.out.println(Long.toBinaryString(a));
+        System.out.println(Long.toBinaryString(b));
+    }
+
+
 
 
     public static void PassObject(Letter letter) {
