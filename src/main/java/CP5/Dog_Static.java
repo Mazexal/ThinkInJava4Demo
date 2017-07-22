@@ -5,6 +5,6 @@ package CP5;
  */
 public class Dog_Static {
     static {
-        
+
     }
 }
